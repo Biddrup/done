@@ -3,6 +3,7 @@
 #Here, p = phone and e = email
 #Cope the paragrapgh by using Ctrl+c and the press F5
 #Next, will show the result
+#Going to make it clear
 import pyperclip, re
 
 p = re.compile(r'((\d{3}|\(\d{3}\))?(\s|-|\.)?(\d{3})(\s|-|\.)(\d{4})(\s*(ext|x|ext.)\s*(\d{2,5}))?)', re.VERBOSE)
